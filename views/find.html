@@ -1,0 +1,50 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+  <div class="timeline">
+    <form id="find-form" action="/auth/find" method="post">
+      <div class="input-group">
+        <label for="find-email">이메일</label>
+        <input id="find-email" type="email" name="email"></div>
+      <div class="input-group">
+        <label for="find-question">질문</label>
+        <select name="question" style="height:35px;" name="question">
+          <option value="place">기억에 남는 추억의 장소는?</option>
+          <option value="arrive">다시 태어나면 되고 싶은 것은?</option>
+          <option value="best">나의 보물 1호는?</option>
+          <option value="ideal">나의 이상형은?</option>
+          <option value="color">가장 좋아하는 색깔은?</option>
+          <option value="food">가장 좋아하는 음식은?</option>
+        </select>
+      </div>
+      <div class="input-group">
+        <label for="find-answer">답</label>
+        <input id="find-answer" type="text" name="answer">
+      </div>
+      <button id="find-btn" type="submit" class="btn">찾기</button>
+    </form>
+  </div>
+{% endblock %}
+
+{% block script %}
+  <script>
+    window.onload = () => {
+      if (new URL(location.href).searchParams.get('message')) {
+        alert(new URL(location.href).searchParams.get('message')) 
+        // {
+        //     var email = prompt("본인 이메일을 입력하여 주세요."+"");
+        //     var password = prompt("본인 비밀번호를 입력하여 주세요."+"");
+        //     var pass = prompt("재설정할 비밀번호를 입력하여 주세요."+"");
+        //     axios.post(`/user/${email}/${password}/${pass}`)
+        //         .then(() => {
+        //           location.reload();
+        //         })
+        //         .catch((err) => {
+        //           console.error(err);
+        //         });
+        //     alert("비밀번호 재설정이 완료 되었습니다.");
+        // }
+      }
+    };
+  </script>
+{% endblock %}

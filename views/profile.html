@@ -1,0 +1,80 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+  <div class="timeline">
+    <form id = "twit-form" action ="post/setPrfImg" method="post" enctype="multipart/form-data">
+      <div class = "img-preview">
+        <img id = "img-preview" src = "" style="display: none;" width="250" alt="미리보기">
+        <input id = "img-url" type = "hidden" name = "url">
+      </div>
+      <div>
+        <label id="img-label" for="img">프로필사진 업로드</label>
+        <input id="img" type="file" accept="image/*">
+        <button id="twit-btn" type="submit" class="btn">등록</button>
+      </div>
+    </form>
+    <div>
+      <form id = "twit-form">
+      {% if user.message %}
+      <div class="profile-message">{{user.message}}</div>
+      {% endif %}
+      <div align="right">
+        <button class="edit" id="message" value="{{user.id}}" onclick="Edit(value)">변경</button>
+      </div>
+      </form>
+    </div>
+    <div class="followings half">
+      <h2>팔로잉 목록</h2>
+      {% if user.Followings %}
+        {% for following in user.Followings %}
+          <div id="test">{{following.nick}}</div>
+        {% endfor %}
+      {% endif %}
+    </div>
+    <div class="followers half">
+      <h2>팔로워 목록</h2>
+      {% if user.Followers %}
+        {% for follower in user.Followers %}
+          <div>{{follower.nick}}</div>
+        {% endfor %}
+      {% endif %}
+    </div>
+  
+  </div>
+{% endblock %}
+{% block script %}
+  <script>
+    
+    if (document.getElementById('img')) {
+      document.getElementById('img').addEventListener('change', function(e) {
+        const formData = new FormData();
+        console.log(this, this.files);
+        formData.append('img', this.files[0]);
+        axios.post('/post/prfImg', formData)
+          .then((res) => {
+            document.getElementById('img-url').value = res.data.url;
+            document.getElementById('img-preview').src = res.data.url;
+            document.getElementById('img-preview').style.display = 'inline';
+          })
+          .catch((err) => {
+            console.error(err);
+          });
+      });
+    }
+
+    async function Edit(id) {
+                  const message = prompt("변경할 내용을 입력하세요.","");
+                  if(!message) {
+                    alert('내용을 반드시 입력하셔야 합니다');
+                    } else {
+                      try {
+                        await axios.put(`/user/${id}/${message}`);
+                      } catch (err) {
+                        console.error(err);
+                      }
+                      alert("변경이 완료 되었습니다.");
+                    }
+                    location.reload();
+                  }
+  </script>
+{% endblock %}

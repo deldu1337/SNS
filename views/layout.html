@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/main.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="profile-wrap">
+        <div class="profile">
+          {% if user and user.id %}
+            <div class="user-name">{{'안녕하세요! ' + user.nick + '님'}}</div>
+            <div class="half">
+              <div>팔로잉</div>
+              <div class="count following-count">{{followingCount}}</div>
+            </div>
+            <div class="half">
+              <div>팔로워</div>
+              <div class="count follower-count">{{followerCount}}</div>
+            </div>
+            <div class = "message">
+            {% if user.message %}
+              <div class="profile-message">{{user.message}}</div>
+            {% endif %}
+            </div>
+            <div>
+              <input id="my-id" type="hidden" value="{{user.id}}">
+              <a id="my-profile" href="/profile" class="btn">내 프로필</a>
+              <a id="logout" href="/auth/logout" class="btn">로그아웃</a>
+            </div>
+            <div class="box_padding">
+              {% if user.prfImg %}
+                <div class = "box_layout" type = "file" accept = "image/*">
+                <img src = "{{user.prfImg}}" alt = "prfi" class = "prfi">
+                </div>
+                {% endif %}
+            </div>
+        {% else %}
+          <form id="login-form" action="/auth/login" method="post">
+            <div class="input-group">
+              <label for="email">이메일</label>
+              <input id="email" type="email" name="email" required autofocus>
+            </div>
+            <div class="input-group">
+              <label for="password">비밀번호</label>
+              <input id="password" type="password" name="password" required>
+            </div>
+            <button id="login" type="submit" class="btn">로그인</button>
+            <a id="kakao" href="/auth/kakao" class="btn">카카오톡</a>
+            <a id="find" href="/find" class="btn">비밀번호 찾기</a>
+            <a id="join" href="/join" class="btn">회원가입</a>
+          </form>
+        {% endif %}
+        </div>
+        <footer>
+          <b>prj-name</b> at Web Framework2 (N)
+        </footer>
+        <label class="space"><br></label>
+        <div align="center">
+          <button class="home" onclick="location.href='/' "><img src="https://cdn-icons-png.flaticon.com/512/0/720.png" width="45px"><br>메인 화면</button>
+          <button class="random-thema" onclick="colorChange()"><img src="https://cdn-icons-png.flaticon.com/512/8196/8196781.png" width="45px"><br>랜덤 테마</button>
+        </div>
+        <label class="space"><br></label>
+        <script>
+          function colorChange() {
+            var color = ["/main.css", "/dark.css", "/sunset.css", "/beach.css", "/cartoon.css", "/charm.css", 
+          "/modern.css", "/lego.css", "/minimal.css"];
+            var num = Math.floor(Math.random() * color.length);
+            
+            var oldlink = document.getElementsByTagName("link").item(0);
+            var bodyTag = document.getElementById("colorCont");
+
+            newlink = document.createElement("link");
+            newlink.setAttribute("rel", "stylesheet");
+            newlink.setAttribute("href", color[num]);
+
+            document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
+          }
+        </script>
+        <div align="center">
+          <button class="mainBtn" value="/main.css" onclick="changeTheme(value)"><img src="https://cdn-icons-png.flaticon.com/512/4562/4562572.png" width="45px"></button>
+          <button class="sunriseBtn" value="/sunset.css" onclick="changeTheme(value)"><img src="https://cdn-icons-png.flaticon.com/128/3233/3233728.png" width="45px"></button>
+          <button class="darkBtn" value="/dark.css" onclick="changeTheme(value)"><img src="https://cdn-icons-png.flaticon.com/512/4489/4489231.png" width="45px"></button>
+        </div>
+        <div align="center">
+          <button class="beachBtn" value="/beach.css" onclick="changeTheme(value)"><img src="https://cdn-icons-png.flaticon.com/128/3175/3175199.png" width="45px"></button>
+          <button class="charmBtn" value="/charm.css" onclick="changeTheme(value)"><img src="https://cdn-icons-png.flaticon.com/128/3571/3571200.png" width="45px"></button>
+          <button class="cartoonBtn" value="/cartoon.css" onclick="changeTheme(value)"><img src="https://cdn-icons-png.flaticon.com/512/3938/3938585.png" width="45px"></button>
+        </div>
+        <div align="center">
+          <button class="modernBtn" value="/modern.css" onclick="changeTheme(value)"><img src="https://cdn-icons-png.flaticon.com/128/63/63971.png" width="45px"></button>
+          <button class="legoBtn" value="/lego.css" onclick="changeTheme(value)"><img src="https://cdn-icons-png.flaticon.com/512/1707/1707196.png" width="45px"></button>
+          <button class="minimalBtn" value="/minimal.css" onclick="changeTheme(value)"><img src="https://cdn-icons-png.flaticon.com/512/5755/5755608.png" width="45px"></button>
+        </div>
+        <script>
+          function changeTheme(value) {
+            var color = value;
+            
+            var oldlink = document.getElementsByTagName("link").item(0);
+            var bodyTag = document.getElementById("colorCont");
+
+            newlink = document.createElement("link");
+            newlink.setAttribute("rel", "stylesheet");
+            newlink.setAttribute("href", color);
+
+            document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
+          }
+        </script>
+      </div>
+      {% block content %}
+      {% endblock %}
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script>
+      window.onload = () => {
+        if (new URL(location.href).searchParams.get('loginError')) {
+          alert(new URL(location.href).searchParams.get('loginError'));
+        }
+      };
+    </script>
+    {% block script %}
+    <script>
+      if (document.getElementById('img2')) {
+      document.getElementById('img2').addEventListener('change', function(e) {
+        const formData = new FormData();
+        console.log(this, this.files);
+        formData.append('img2', this.files[0]);
+        axios.post('/post/prfImg', formData)
+          .then((res) => {
+            document.getElementById('prf-url').value = res.data.url;
+            document.getElementById('prf-preview').src = res.data.url;
+            document.getElementById('prf-preview').style.display = 'inline';
+          })
+          .catch((err) => {
+            console.error(err);
+          });
+      });
+    }
+    </script>
+    {% endblock %}
+  </body>
+</html>
