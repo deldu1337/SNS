@@ -110,11 +110,13 @@
 
  ![테마색상변경](https://user-images.githubusercontent.com/77719450/195848164-81dd9740-96c1-4d72-8941-60486ec61179.PNG)
  
-<center>||||</center>
-<center>|----|---|---|</center>
-<center>|메인|노을|다크|</center>
-<center>|해변|매력|카툰|</center>
-<center>|모던|레고|미니멈|</center>
+<center>
+||||
+|----|---|---|
+|메인|노을|다크|
+|해변|매력|카툰|
+|모던|레고|미니멈|
+</center>
 
 
  -----------------------
