@@ -21,8 +21,8 @@
 ### PART 3. 화면 구성 및 세부 기능
  #### 게시물 등록
 
- ![게시물등록1](https://user-images.githubusercontent.com/77719450/195826494-636e267c-d282-422e-ae3a-21818620cee8.PNG)
- ![게시물등록2](https://user-images.githubusercontent.com/77719450/195826515-997c9e70-63ea-4f33-bf13-4c5ba560aa86.PNG)
+ 1. ![게시물등록1](https://user-images.githubusercontent.com/77719450/195826494-636e267c-d282-422e-ae3a-21818620cee8.PNG)
+ 2. ![게시물등록2](https://user-images.githubusercontent.com/77719450/195826515-997c9e70-63ea-4f33-bf13-4c5ba560aa86.PNG)
 
  -----------------------
  #### 게시물 수정
