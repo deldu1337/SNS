@@ -17,8 +17,9 @@
 ### PART 2. 프로그램 구성
  - 게시물 등록
 
-![게시물등록1](https://user-images.githubusercontent.com/77719450/195825754-bf51b587-4c3f-4ad0-882c-8173effb4431.PNG)
-![게시물등록2](https://user-images.githubusercontent.com/77719450/195825770-8c82515e-9337-43c3-858f-56d100001962.PNG)
+![게시물등록1](https://user-images.githubusercontent.com/77719450/195826494-636e267c-d282-422e-ae3a-21818620cee8.PNG)
+![게시물등록2](https://user-images.githubusercontent.com/77719450/195826515-997c9e70-63ea-4f33-bf13-4c5ba560aa86.PNG)
+
 
 
  -----------------------
