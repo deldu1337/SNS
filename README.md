@@ -1,29 +1,17 @@
 # 익스프레스를 활용한 SNS 웹 서비스
 # Facebook, Instagram, Twitter와 같은 Sns에 존재하는 기본적인 기능이 포함된 간단한 SNS 웹 서비스
 #### 프로젝트 개발 기간 : 2022.04 ~ 2022.05
+#### 프로젝트 개발 인원 : 4인
 -----------------------
 ## Description
 ### PART 1. 프로그램 제공 기능
- - 실시간 채팅 기능
- - 로그인 및 로그아웃 기능
- - 친구 추가 기능
- - 채팅방 추가 기능
+ - 프로필 기능
+ - 게시물 등록, 수정, 삭제 기능
+ - 팔로우 및 좋아요 기능
+ - 다양한 색상의 테마 변경 기능
  
 ### PART 2. 프로그램 구성
- - 시스템 구성도
- ![시스템구성도](https://user-images.githubusercontent.com/77719450/195785934-6cbd1f4b-15dd-40cc-8e9b-01bcfe928e8e.PNG)
- -----------------------
- - 시스템 흐름도
- ![시스템흐름도](https://user-images.githubusercontent.com/77719450/195786722-8f5c0984-51bf-45ae-904b-309886564454.PNG)
- -----------------------
- |Protocol|용도/내용|방향|
-|------|---|---|
-|100|Login|Client -> Server|
-|150|ID 저장|Client -> Server|
-|200|채팅 Message|Client -> Server -> Client|
-|300|Image|Client -> Server -> Client|
-|400|Logout|Client -> Server|
-|500|Mouse Event|Client -> Server -> Client|
+
 
  -----------------------
 ### PART 3. 화면 구성 및 세부 기능
@@ -99,6 +87,6 @@
  -----------------------
 
 ## Environment
- > Java version 17.0.1
+ > Node version 16.17.0
  > 
  > MySQL version 8.0.26
