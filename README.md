@@ -32,11 +32,22 @@
 
  -----------------------
  - 게시물 삭제
+
 ![게시물삭제1](https://user-images.githubusercontent.com/77719450/195827620-35323d0c-4fe5-44e7-8bc5-53fb242a2004.PNG)
 ![게시물삭제2](https://user-images.githubusercontent.com/77719450/195827637-d4dbf432-f104-419f-aeed-70f1814afd26.PNG)
 
  -----------------------
+ - 좋아요
+
+![좋아요](https://user-images.githubusercontent.com/77719450/195828024-e61a90ca-5d93-421b-94fe-cb5d59c68315.PNG)
+
  -----------------------
+ - 팔로우
+
+![팔로우1](https://user-images.githubusercontent.com/77719450/195828346-f723043c-3e4c-4a02-bee4-3765a56459a4.PNG)
+![팔로우2](https://user-images.githubusercontent.com/77719450/195828361-1557b897-c1b3-4194-b1d9-f5e2df1facdf.PNG)
+![팔로우3](https://user-images.githubusercontent.com/77719450/195828373-cabe6809-6af6-4f31-ad0c-03bf8646267c.PNG)
+
  ----------------------- 
  -----------------------
 
