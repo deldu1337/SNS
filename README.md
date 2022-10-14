@@ -23,16 +23,16 @@
  1.
  ![게시물등록1](https://user-images.githubusercontent.com/77719450/195826494-636e267c-d282-422e-ae3a-21818620cee8.PNG)
  - 이미지 첨부, 글 작성 후 '게시' 버튼 클릭
- 
- 
  2. 
  ![게시물등록2](https://user-images.githubusercontent.com/77719450/195826515-997c9e70-63ea-4f33-bf13-4c5ba560aa86.PNG)
  - 게시물 등록 후 창 새로고침
 
  -----------------------
  #### 게시물 수정
-
+ 1.
  ![게시물수정1](https://user-images.githubusercontent.com/77719450/195827331-c331e0a0-92e0-4b55-8a3a-5d8b5df7bc23.PNG)
+ - 
+ 2.
  ![게시물수정2](https://user-images.githubusercontent.com/77719450/195827347-cdea8fd6-34f3-473f-938b-28ec56b217d8.PNG)
 
  -----------------------
