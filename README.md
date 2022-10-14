@@ -6,6 +6,7 @@
 ## Description
 ### PART 1. 프로그램 제공 기능
  - 게시물 등록/수정/삭제 기능
+ - 해시태그 기능
  - 좋아요 기능
  - 팔로우 및 팔로우 취소 기능
  - 프로필 사진 등록 및 변경 기능
@@ -35,6 +36,13 @@
 
  ![게시물삭제1](https://user-images.githubusercontent.com/77719450/195827620-35323d0c-4fe5-44e7-8bc5-53fb242a2004.PNG)
  ![게시물삭제2](https://user-images.githubusercontent.com/77719450/195827637-d4dbf432-f104-419f-aeed-70f1814afd26.PNG)
+
+ -----------------------
+ - 해시태그
+
+ ![해시태그1](https://user-images.githubusercontent.com/77719450/195845369-47bbb36a-4573-4696-bb34-240f87c73a97.PNG)
+ ![해시태그2](https://user-images.githubusercontent.com/77719450/195845500-afb1edab-479b-49f1-9c18-5e432d4dafb4.PNG)
+
 
  -----------------------
  - 좋아요
@@ -71,6 +79,7 @@
 
  -----------------------
  - 상태 메시지 등록
+
  ![상태메시지등록1](https://user-images.githubusercontent.com/77719450/195832939-3aa6008b-fd22-4391-a20d-8cdcbb8fae42.PNG)
  ![상태메시지등록2](https://user-images.githubusercontent.com/77719450/195832951-82c5e9dc-17da-471e-87ee-62da203aa3e4.PNG)
  ![상태메시지등록3](https://user-images.githubusercontent.com/77719450/195832987-87ebf493-fdf4-4eac-94c7-69e7b69b450e.PNG)
@@ -79,20 +88,29 @@
 
  -----------------------
  - 상태 메시지 수정
+
  ![상태메시지수정1](https://user-images.githubusercontent.com/77719450/195833678-feb30a6d-4b4c-4953-ba2a-b9748c3b0612.PNG)
  ![상태메시지수정2](https://user-images.githubusercontent.com/77719450/195833694-9c422357-fb4b-4dc8-85be-197038dcb4c7.PNG)
  ![상태메시지수정3](https://user-images.githubusercontent.com/77719450/195833714-efb9e062-06f2-40a8-b873-ba5ffcb00d0b.PNG)
 
  -----------------------
  - 내 게시물 보기
+
  ![내게시물보기](https://user-images.githubusercontent.com/77719450/195834099-25f87fad-ba17-4f5b-a674-4c695d77fccb.PNG)
 
  -----------------------
  - 비밀번호 찾기
 
+ ![비밀번호찾기1](https://user-images.githubusercontent.com/77719450/195844450-f2300361-c65e-4bc6-b13c-f4a84a9585ff.PNG)
+ ![비밀번호찾기2](https://user-images.githubusercontent.com/77719450/195844483-eadbb2c2-c746-4e77-8719-714ca9a4164d.PNG)
+
 
  -----------------------
  - 테마 색상 변경
+
+ 
+
+ -----------------------
 
 ## Environment
  > Node.js version 16.17.0
