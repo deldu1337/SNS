@@ -48,7 +48,25 @@
 ![팔로우2](https://user-images.githubusercontent.com/77719450/195828361-1557b897-c1b3-4194-b1d9-f5e2df1facdf.PNG)
 ![팔로우3](https://user-images.githubusercontent.com/77719450/195828373-cabe6809-6af6-4f31-ad0c-03bf8646267c.PNG)
 
- ----------------------- 
+ -----------------------
+ - 팔로우 취소
+
+![팔로우취소1](https://user-images.githubusercontent.com/77719450/195828671-81cae325-d5d0-4dbf-a015-10c6420cb51c.PNG)
+![팔로우취소2](https://user-images.githubusercontent.com/77719450/195828698-26ea9855-7513-4703-a2a5-c8381715b904.PNG)
+![팔로우취소3](https://user-images.githubusercontent.com/77719450/195828713-d48b9b3e-da77-4c4b-a19e-02857b37fb19.PNG)
+
+ -----------------------
+ - 프로필 사진 등록
+
+![프로필사진등록1](https://user-images.githubusercontent.com/77719450/195830918-09baa9a3-5fe2-4933-8cd1-1b458985531b.PNG)
+![프로필사진등록2](https://user-images.githubusercontent.com/77719450/195830930-a4acc68e-394b-415e-8a5a-309a9b856a58.PNG)
+![프로필사진등록3](https://user-images.githubusercontent.com/77719450/195830949-3d7b649c-7a81-4919-9ba6-997ae96a442f.PNG)
+
+ -----------------------
+ -----------------------
+ -----------------------
+ -----------------------
+ -----------------------
  -----------------------
 
 ## Environment
