@@ -38,4 +38,4 @@
  > 
  > MySQL version 8.0.26
  > 
- > Visual Studio Code IDE version 1.72.0
+ > Visual Studio Code IDE version 2022-09 (1.72.0)
