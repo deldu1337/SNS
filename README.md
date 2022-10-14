@@ -63,6 +63,12 @@
 ![프로필사진등록3](https://user-images.githubusercontent.com/77719450/195830949-3d7b649c-7a81-4919-9ba6-997ae96a442f.PNG)
 
  -----------------------
+ - 프로필 사진 변경
+
+![프로필사진변경1](https://user-images.githubusercontent.com/77719450/195831970-9be82ee9-c0bb-492f-b743-658b0b7058ce.PNG)
+![프로필사진변경2](https://user-images.githubusercontent.com/77719450/195831980-58907303-4b79-4f44-84cc-6604c1d070ac.PNG)
+![프로필사진변경3](https://user-images.githubusercontent.com/77719450/195831989-afffe32f-0036-40a4-a561-88cbdcef255d.PNG)
+
  -----------------------
  -----------------------
  -----------------------
