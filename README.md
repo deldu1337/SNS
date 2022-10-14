@@ -21,8 +21,8 @@
 ### PART 3. 화면 구성 및 세부 기능
  - 게시물 등록
 
-![게시물등록1](https://user-images.githubusercontent.com/77719450/195826494-636e267c-d282-422e-ae3a-21818620cee8.PNG)
-![게시물등록2](https://user-images.githubusercontent.com/77719450/195826515-997c9e70-63ea-4f33-bf13-4c5ba560aa86.PNG)
+ ![게시물등록1](https://user-images.githubusercontent.com/77719450/195826494-636e267c-d282-422e-ae3a-21818620cee8.PNG)
+ ![게시물등록2](https://user-images.githubusercontent.com/77719450/195826515-997c9e70-63ea-4f33-bf13-4c5ba560aa86.PNG)
 
  -----------------------
  - 게시물 수정
@@ -33,47 +33,66 @@
  -----------------------
  - 게시물 삭제
 
-![게시물삭제1](https://user-images.githubusercontent.com/77719450/195827620-35323d0c-4fe5-44e7-8bc5-53fb242a2004.PNG)
-![게시물삭제2](https://user-images.githubusercontent.com/77719450/195827637-d4dbf432-f104-419f-aeed-70f1814afd26.PNG)
+ ![게시물삭제1](https://user-images.githubusercontent.com/77719450/195827620-35323d0c-4fe5-44e7-8bc5-53fb242a2004.PNG)
+ ![게시물삭제2](https://user-images.githubusercontent.com/77719450/195827637-d4dbf432-f104-419f-aeed-70f1814afd26.PNG)
 
  -----------------------
  - 좋아요
 
-![좋아요](https://user-images.githubusercontent.com/77719450/195828024-e61a90ca-5d93-421b-94fe-cb5d59c68315.PNG)
+ ![좋아요](https://user-images.githubusercontent.com/77719450/195828024-e61a90ca-5d93-421b-94fe-cb5d59c68315.PNG)
 
  -----------------------
  - 팔로우
 
-![팔로우1](https://user-images.githubusercontent.com/77719450/195828346-f723043c-3e4c-4a02-bee4-3765a56459a4.PNG)
-![팔로우2](https://user-images.githubusercontent.com/77719450/195828361-1557b897-c1b3-4194-b1d9-f5e2df1facdf.PNG)
-![팔로우3](https://user-images.githubusercontent.com/77719450/195828373-cabe6809-6af6-4f31-ad0c-03bf8646267c.PNG)
+ ![팔로우1](https://user-images.githubusercontent.com/77719450/195828346-f723043c-3e4c-4a02-bee4-3765a56459a4.PNG)
+ ![팔로우2](https://user-images.githubusercontent.com/77719450/195828361-1557b897-c1b3-4194-b1d9-f5e2df1facdf.PNG)
+ ![팔로우3](https://user-images.githubusercontent.com/77719450/195828373-cabe6809-6af6-4f31-ad0c-03bf8646267c.PNG)
 
  -----------------------
  - 팔로우 취소
 
-![팔로우취소1](https://user-images.githubusercontent.com/77719450/195828671-81cae325-d5d0-4dbf-a015-10c6420cb51c.PNG)
-![팔로우취소2](https://user-images.githubusercontent.com/77719450/195828698-26ea9855-7513-4703-a2a5-c8381715b904.PNG)
-![팔로우취소3](https://user-images.githubusercontent.com/77719450/195828713-d48b9b3e-da77-4c4b-a19e-02857b37fb19.PNG)
+ ![팔로우취소1](https://user-images.githubusercontent.com/77719450/195828671-81cae325-d5d0-4dbf-a015-10c6420cb51c.PNG)
+ ![팔로우취소2](https://user-images.githubusercontent.com/77719450/195828698-26ea9855-7513-4703-a2a5-c8381715b904.PNG)
+ ![팔로우취소3](https://user-images.githubusercontent.com/77719450/195828713-d48b9b3e-da77-4c4b-a19e-02857b37fb19.PNG)
 
  -----------------------
  - 프로필 사진 등록
 
-![프로필사진등록1](https://user-images.githubusercontent.com/77719450/195830918-09baa9a3-5fe2-4933-8cd1-1b458985531b.PNG)
-![프로필사진등록2](https://user-images.githubusercontent.com/77719450/195830930-a4acc68e-394b-415e-8a5a-309a9b856a58.PNG)
-![프로필사진등록3](https://user-images.githubusercontent.com/77719450/195830949-3d7b649c-7a81-4919-9ba6-997ae96a442f.PNG)
+ ![프로필사진등록1](https://user-images.githubusercontent.com/77719450/195830918-09baa9a3-5fe2-4933-8cd1-1b458985531b.PNG)
+ ![프로필사진등록2](https://user-images.githubusercontent.com/77719450/195830930-a4acc68e-394b-415e-8a5a-309a9b856a58.PNG)
+ ![프로필사진등록3](https://user-images.githubusercontent.com/77719450/195830949-3d7b649c-7a81-4919-9ba6-997ae96a442f.PNG)
 
  -----------------------
  - 프로필 사진 변경
 
-![프로필사진변경1](https://user-images.githubusercontent.com/77719450/195831970-9be82ee9-c0bb-492f-b743-658b0b7058ce.PNG)
-![프로필사진변경2](https://user-images.githubusercontent.com/77719450/195831980-58907303-4b79-4f44-84cc-6604c1d070ac.PNG)
-![프로필사진변경3](https://user-images.githubusercontent.com/77719450/195831989-afffe32f-0036-40a4-a561-88cbdcef255d.PNG)
+ ![프로필사진변경1](https://user-images.githubusercontent.com/77719450/195831970-9be82ee9-c0bb-492f-b743-658b0b7058ce.PNG)
+ ![프로필사진변경2](https://user-images.githubusercontent.com/77719450/195831980-58907303-4b79-4f44-84cc-6604c1d070ac.PNG)
+ ![프로필사진변경3](https://user-images.githubusercontent.com/77719450/195831989-afffe32f-0036-40a4-a561-88cbdcef255d.PNG)
 
  -----------------------
+ - 상태 메시지 등록
+ ![상태메시지등록1](https://user-images.githubusercontent.com/77719450/195832939-3aa6008b-fd22-4391-a20d-8cdcbb8fae42.PNG)
+ ![상태메시지등록2](https://user-images.githubusercontent.com/77719450/195832951-82c5e9dc-17da-471e-87ee-62da203aa3e4.PNG)
+ ![상태메시지등록3](https://user-images.githubusercontent.com/77719450/195832987-87ebf493-fdf4-4eac-94c7-69e7b69b450e.PNG)
+
+
+
  -----------------------
+ - 상태 메시지 수정
+ ![상태메시지수정1](https://user-images.githubusercontent.com/77719450/195833678-feb30a6d-4b4c-4953-ba2a-b9748c3b0612.PNG)
+ ![상태메시지수정2](https://user-images.githubusercontent.com/77719450/195833694-9c422357-fb4b-4dc8-85be-197038dcb4c7.PNG)
+ ![상태메시지수정3](https://user-images.githubusercontent.com/77719450/195833714-efb9e062-06f2-40a8-b873-ba5ffcb00d0b.PNG)
+
  -----------------------
+ - 내 게시물 보기
+ ![내게시물보기](https://user-images.githubusercontent.com/77719450/195834099-25f87fad-ba17-4f5b-a674-4c695d77fccb.PNG)
+
  -----------------------
+ - 비밀번호 찾기
+
+
  -----------------------
+ - 테마 색상 변경
 
 ## Environment
  > Node.js version 16.17.0
