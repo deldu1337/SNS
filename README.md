@@ -34,7 +34,7 @@
  -----------------------
 
 ## Environment
- > Node version 16.17.0
+ > Node.js version 16.17.0
  > 
  > MySQL version 8.0.26
  > 
