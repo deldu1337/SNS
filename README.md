@@ -15,31 +15,29 @@
  - 테마 색상 변경 기능
  
 ### PART 2. 프로그램 구성
+
+
+ -----------------------
+### PART 3. 화면 구성 및 세부 기능
  - 게시물 등록
 
 ![게시물등록1](https://user-images.githubusercontent.com/77719450/195826494-636e267c-d282-422e-ae3a-21818620cee8.PNG)
 ![게시물등록2](https://user-images.githubusercontent.com/77719450/195826515-997c9e70-63ea-4f33-bf13-4c5ba560aa86.PNG)
 
+ -----------------------
+ - 게시물 수정
 
+ ![게시물수정1](https://user-images.githubusercontent.com/77719450/195827331-c331e0a0-92e0-4b55-8a3a-5d8b5df7bc23.PNG)
+ ![게시물수정2](https://user-images.githubusercontent.com/77719450/195827347-cdea8fd6-34f3-473f-938b-28ec56b217d8.PNG)
 
  -----------------------
-### PART 3. 화면 구성 및 세부 기능
- - JavaObjServer.java
- 
- ![JavaObjServer](https://user-images.githubusercontent.com/77719450/195806504-e471f9b9-4a3b-4b48-8024-8addc277bfe9.png)
+ - 게시물 삭제
+![게시물삭제1](https://user-images.githubusercontent.com/77719450/195827620-35323d0c-4fe5-44e7-8bc5-53fb242a2004.PNG)
+![게시물삭제2](https://user-images.githubusercontent.com/77719450/195827637-d4dbf432-f104-419f-aeed-70f1814afd26.PNG)
 
- - 서버 화면
- - 서버를 실행해야만 실시간 채팅 가능
- - 아이디, 채팅 내용, 프로토콜 등 클라이언트에서 받아오는 데이터들을 실시간으로 표시
  -----------------------
- - JavaObjClientMain.java
- 
-![JavaObjClientMain](https://user-images.githubusercontent.com/77719450/195789360-c8e05c2d-4fbe-4eba-b80e-158f6d373243.png)
-
- - 로그인 화면
- - IP Address와 Port Number 표시 및 수정 가능
- - 이름과 아이디를 입력해야만 '로그인' 버튼 활성화
- - 이름과 아이디를 입력 후 '로그인' 버튼 클릭 시, 로비 화면(SecondFrame.java)으로 이동
+ -----------------------
+ ----------------------- 
  -----------------------
 
 ## Environment
